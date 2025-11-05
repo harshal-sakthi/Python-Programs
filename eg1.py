@@ -1,5 +1,4 @@
-h = input("Enter your Feedback: ")
+import pandas as pd
 
-with open("file_log.txt", "a") as f:
-    f.write(h + "\n")
-print("Thanks for your Feedback!")
+df = pd.read_csv("d.csv", header = None, names = ["Name", "Age", "City"])
+print(df)
