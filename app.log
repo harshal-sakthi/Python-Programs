@@ -1,0 +1,4 @@
+2025-10-21 21:06:10,072 - INFO - Divide 10 by 2
+2025-10-21 21:06:10,072 - DEBUG - Result 5.0
+2025-10-21 21:06:10,072 - INFO - Divide 10 by 0
+2025-10-21 21:06:10,072 - ERROR - Tried to divide 10 by 0

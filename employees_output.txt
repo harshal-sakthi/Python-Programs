@@ -1,0 +1,16 @@
+{'id': 1, 'name': 'Harshal', 'job': 'IT'}
+{'id': 2, 'name': 'Kaniyan', 'job': 'Scientist'}
+{'id': 3, 'name': 'Nikithan', 'job': 'Pilot'}
+{'id': 4, 'name': 'Sudharshanaa raaj', 'job': 'Cricketer'}
+{'id': 5, 'name': 'Shashwin Surya', 'job': 'Doctor'}
+{'id': 6, 'name': 'Suyambu Dharshan', 'job': 'Chief Minister(CM)'}
+{'id': 7, 'name': 'Ritik Raj', 'job': 'Farmer'}
+{'id': 8, 'name': 'Pregathesh Mahizan', 'job': 'Archaeologist'}
+{'id': 9, 'name': 'Harshal', 'job': 'IT'}
+{'id': 10, 'name': 'Kaniyan', 'job': 'Scientist'}
+{'id': 11, 'name': 'Nikithan', 'job': 'Pilot'}
+{'id': 12, 'name': 'Sudharshanaa raaj', 'job': 'Cricketer'}
+{'id': 13, 'name': 'Shashwin Surya', 'job': 'Doctor'}
+{'id': 14, 'name': 'Suyambu Dharshan', 'job': 'Chief Minister(CM)'}
+{'id': 15, 'name': 'Ritik Raj', 'job': 'Farmer'}
+{'id': 16, 'name': 'Pregathesh Mahizan', 'job': 'Archaeologist'}
