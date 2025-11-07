@@ -1,10 +1,20 @@
-from flask import Flask
+from textblob import TextBlob
 
-app = Flask(__name__)
-@app.route('/')
+print("Welcome to AI Mood Detector:")
+name = input("Enter your name: ")
+print(f"Nice to meet you, {name} Let us find out the sentiment of your sentence")
+print("Type exit to quit\n")
 
-def index():
-    return "<h1>Hello This is my my First Flask App</h1>"
-
-if __name__ == '__main__':
-    app.run(debug=True)
+while True:
+    sentence = input("Enter your sentence: ")
+    if sentence.lower() == "exit":
+        print(f"Good Bye {name}")
+        break
+    blob = TextBlob(sentence)
+    sentiment = blob.sentiment.polarity
+    if sentiment > 0:
+        print("Positive sentiment detected")
+    elif sentiment < 0:
+        print("Negative sentiment detected")
+    else:
+        print("Neutral sentiment detected")
